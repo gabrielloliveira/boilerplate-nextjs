@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import '../../styles/globals.css'
-import type { AppProps /*, AppContext */ } from 'next/app'
+import type { AppProps } from 'next/app'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
