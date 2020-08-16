@@ -10,7 +10,10 @@ function App({ Component, pageProps }: AppProps) {
         <title>Boilerplate</title>
         <link rel="shortcut icon" href="/img/icon.png" />
         <link rel="apple-touch-icon" href="/img/icon.png" />
+        <link rel="apple-touch-icon" href="/img/icon.png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta charSet="utf-8" />
+        <meta name="theme-color" content="#030518" />
         <meta
           name="description"
           content="Boilerplate simples para TypeScript,
