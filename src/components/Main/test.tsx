@@ -7,7 +7,12 @@ describe('<Main />', () => {
     render(<Main />)
 
     expect(
-      screen.getByRole('heading', { name: /react avançado/i })
+      screen.getByRole('heading', { name: /boilerplate/i })
     ).toBeInTheDocument()
+  })
+  it('should render colors correctly', () => {
+    const { container } = render(<Main />)
+
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#030518' })
   })
 })
